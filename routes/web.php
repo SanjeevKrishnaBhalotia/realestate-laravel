@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 //home page
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages/home');
 });
 
 //show all listings 
